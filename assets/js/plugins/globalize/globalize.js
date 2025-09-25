@@ -172,17 +172,17 @@
                 firstDay: 0,
                 days: {
                     // full day names
-                    names: ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"],
+                    names: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                     // abbreviated day names
-                    namesAbbr: ["Paz", "Pts", "Sal", "Çar", "Per", "Cum", "Cmt"],
+                    namesAbbr: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
                     // shortest day names
-                    namesShort: ["Pa", "Pt", "Sa", "Ça", "Pe", "Cu", "Ct"]
+                    namesShort: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"]
                 },
                 months: {
                     // full month names (13 months for lunar calendards -- 13th month should be "" if not lunar)
                     names: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", ""],
                     // abbreviated month names
-                    namesAbbr: ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "ğu", "Eyl", "Eki", "Kas", "Ara", ""]
+                    namesAbbr: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", ""]
                 },
                 // AM and PM designators in one of these forms:
                 // The usual view, and the upper and lower case versions

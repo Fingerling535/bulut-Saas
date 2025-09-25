@@ -17,7 +17,7 @@
 
 jQuery.extend(jQuery.fn.dataTableExt.oSort, {
     "stringMonthYear-pre": function (s) {
-        var months = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "ğu", "Eyl", "Eki", "Kas", "Ara"];
+        var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
         var dateComponents = s.split(" ");
         dateComponents[0] = dateComponents[0].replace(",", "");
